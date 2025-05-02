@@ -1,0 +1,57 @@
+.taskDetailContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.taskDetailCard {
+  background-color: var(--card-bg);
+  padding: 24px;
+  border-radius: 12px;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--glow-effect);
+}
+
+.taskDetailCard p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.taskDetailCard strong {
+  color: var(--accent-color);
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 12px;
+}
+
+.actionButtons button {
+  transition: all 0.3s ease;
+}
+
+.actionButtons button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px var(--border-color) !important;
+}
+
+.inputField {
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: var(--secondary-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+.inputField:focus {
+  box-shadow: var(--glow-effect) !important;
+}
+
+.inputField:hover {
+  border-color: var(--accent-color) !important;
+}

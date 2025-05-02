@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+}
+
+.login-container, .register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--card-bg);
+  color: var(--text-primary);
+  border: 1.5px solid var(--border-color);
+  box-shadow: 0 0 32px 4px rgba(0,0,0,0.12), 0 2px 32px 0 rgba(0,0,0,0.7);
+  padding: 32px 32px 24px 32px;
+  border-radius: 18px;
+  margin: 0;
+  min-width: 350px;
+  max-width: 400px;
+  z-index: 3;
+}
+
+.heading {
+  margin-top: 5px;
+  margin-bottom: 18px;
+  color: var(--text-primary);
+  text-shadow: 0 0 8px var(--border-color), 0 0 2px var(--border-color);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.form-item {
+  margin-bottom: 10px;
+  width: 350px;
+}

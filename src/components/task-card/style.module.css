@@ -1,0 +1,50 @@
+.taskCard {
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--card-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.taskCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px var(--border-color) !important;
+}
+
+.taskCard :global(.ant-card-head) {
+  background-color: var(--secondary-bg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.taskCard :global(.ant-card-body) {
+  background-color: var(--card-bg);
+  padding: 16px;
+}
+
+.taskCard :global(.ant-card-head-title) {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.taskCard :global(.ant-badge-status-dot) {
+  box-shadow: var(--glow-effect);
+}
+
+.taskCard :global(.ant-badge-status-text) {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.taskCard p {
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.taskCard strong {
+  color: var(--text-primary);
+  margin-right: 8px;
+}

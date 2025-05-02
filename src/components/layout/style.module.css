@@ -1,0 +1,44 @@
+.appLayout {
+  min-height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid var(--border-color);
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  padding: 16px;
+  text-align: center;
+}
+
+.header {
+  color: white;
+  font-size: 24px;
+  background: var(--sidebar-bg);
+  padding-left: 16px;
+}
+
+.content {
+  margin: 24px;
+  margin-left: 224px; /* 200px sidebar width + 24px margin */
+  width: calc(100% - 224px);
+}
+
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+
+.taskCard {
+  margin-bottom: 16px;
+}

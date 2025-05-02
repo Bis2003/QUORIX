@@ -1,0 +1,44 @@
+.appLayout {
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #001529;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  padding: 16px;
+  text-align: center;
+}
+
+.header {
+  color: white;
+  font-size: 24px;
+  background: #001529;
+  padding-left: 16px;
+}
+
+.content {
+  margin: 24px;
+}
+
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.taskCard {
+  margin-bottom: 16px;
+}
+
+.addTaskBtn {
+  margin-bottom: 16px;
+}
+
+.inputField {
+  width: 100%;
+  margin-bottom: 8px;
+}
